@@ -5,9 +5,9 @@ const board = new five.Board({
 });
 
 board.on('ready', function(){
-  console.log("board on");
+  console.log("board onnnnn");
   // Create an Led on pin 7 on header P1 (GPIO4) and strobe it on/off
-  const led = new five.Led(7);
-  console.log(led);
+  const led = new five.Led("P1-13");
+
   led.strobe(500);
 });
