@@ -8,6 +8,6 @@ board.on('ready', function(){
   console.log("board onnnnn");
   // Create an Led on pin 7 on header P1 (GPIO4) and strobe it on/off
   const blue = new five.Led("P1-13");
-
-  blue.on();
+  const red = new five.Led("P1-11");
+  red.on();
 });
