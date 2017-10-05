@@ -11,7 +11,7 @@ board.on('ready', function(){
   const red = new five.Led("P1-33");
   const green = new five.Led("P1-35");
   red.on();
-  red.brightness(10);
+  red.brightness(1);
 
  //  var anode = new five.Led.RGB({
  //   pins: {
