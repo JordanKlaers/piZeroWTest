@@ -14,7 +14,7 @@ board.on('ready', function(){
 
   var anode = new five.Led.RGB({
    pins: {
-     red: "P1-1",
+     red: "P1-12",
      green: "P1-33",
      blue: "P1-35"
    },
