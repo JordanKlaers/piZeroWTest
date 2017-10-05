@@ -7,11 +7,11 @@ const board = new five.Board({
 board.on('ready', function(){
   console.log("board onnnnn");
   // Create an Led on pin 7 on header P1 (GPIO4) and strobe it on/off
-  // const blue = new five.Led("P1-12");
-  const red = new five.Led("P1-33");
+  const blue = new five.Led("P1-12");
+  // const red = new five.Led("P1-33");
   // const green = new five.Led("P1-35");
-  red.on();
-  red.brightness(10);
+  blue.on();
+  blue.brightness(10);
 
  //  var anode = new five.Led.RGB({
  //   pins: {
